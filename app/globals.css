@@ -12,32 +12,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* ===== SKEMA UI (moved from app/page.tsx inline <style>) ===== */
-
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background: #ffffff;
   color: #0a0a0a;
   font-family: 'DM Sans', sans-serif;
   min-height: 100vh;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .skema-ticker {
@@ -46,7 +32,6 @@ body {
   font-family: 'DM Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.12em;
-  padding: 10px 0;
   overflow: hidden;
   white-space: nowrap;
   border-bottom: 1px solid #0a0a0a;
@@ -55,27 +40,33 @@ body {
 .skema-ticker-inner {
   display: flex;
   align-items: center;
-  animation: ticker-scroll 20s linear infinite;
+  justify-content: center;
+  height: 38px;
+  overflow: hidden;
 }
 
-@keyframes ticker-scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.ticker-item {
-  margin-right: 48px;
+.ticker-slide {
+  display: block;
+  text-align: center;
   white-space: nowrap;
 }
 
-.ticker-sep {
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  background: #666;
-  border-radius: 50%;
-  flex-shrink: 0;
-  margin-right: 48px;
+.ticker-slide.slide-in-up {
+  animation: slideUpIn 0.4s ease forwards;
+}
+
+.ticker-slide.slide-out-down {
+  animation: slideDownOut 0.4s ease forwards;
+}
+
+@keyframes slideUpIn {
+  0%   { opacity: 0; transform: translateY(18px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDownOut {
+  0%   { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-18px); }
 }
 
 .skema-nav {
@@ -129,28 +120,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: start;
-}
-
-.hero-left {}
-
-.hero-eyebrow {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #666;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero-eyebrow::before {
-  content: '';
-  display: inline-block;
-  width: 24px;
-  height: 1.5px;
-  background: #666;
 }
 
 .hero-title {
@@ -213,7 +182,7 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 22px;
   letter-spacing: 0.06em;
-  color: #f5f4f0;
+  color: #ffffff;
 }
 
 .upload-step {
@@ -260,7 +229,7 @@ body {
 }
 
 .drop-zone.has-file {
-  border-color: #f5f4f0;
+  border-color: #ffffff;
   border-style: solid;
 }
 
@@ -275,9 +244,7 @@ body {
   margin-bottom: 12px;
 }
 
-.drop-icon svg {
-  color: #777;
-}
+.drop-icon svg { color: #777; }
 
 .drop-label {
   font-size: 13px;
@@ -297,7 +264,7 @@ body {
 
 .drop-label-file {
   font-size: 13px;
-  color: #f5f4f0;
+  color: #ffffff;
   font-weight: 500;
   text-align: center;
   word-break: break-all;
@@ -322,19 +289,9 @@ body {
   transition: background 0.15s, transform 0.1s;
 }
 
-.cta-btn:hover:not(:disabled) {
-  background: #e8e8e8;
-}
-
-.cta-btn:active:not(:disabled) {
-  transform: scale(0.98);
-}
-
-.cta-btn:disabled {
-  background: #222;
-  color: #555;
-  cursor: not-allowed;
-}
+.cta-btn:hover:not(:disabled) { background: #e8e8e8; }
+.cta-btn:active:not(:disabled) { transform: scale(0.98); }
+.cta-btn:disabled { background: #222; color: #555; cursor: not-allowed; }
 
 .error-msg {
   margin-top: 12px;
@@ -347,7 +304,6 @@ body {
   font-family: 'DM Mono', monospace;
 }
 
-/* Results area */
 .results-wrap {
   max-width: 1100px;
   margin: 0 auto;
@@ -362,11 +318,7 @@ body {
   padding-top: 16px;
 }
 
-.results-divider-line {
-  flex: 1;
-  height: 1px;
-  background: #e0e0e0;
-}
+.results-divider-line { flex: 1; height: 1px; background: #e0e0e0; }
 
 .results-divider-label {
   font-family: 'DM Mono', monospace;
@@ -394,17 +346,13 @@ body {
   gap: 12px;
 }
 
-.results-header-left {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
+.results-header-left { display: flex; align-items: center; gap: 14px; }
 
 .results-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 20px;
   letter-spacing: 0.08em;
-  color: #f5f4f0;
+  color: #ffffff;
 }
 
 .results-count {
@@ -418,11 +366,7 @@ body {
   font-weight: 500;
 }
 
-.results-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+.results-actions { display: flex; align-items: center; gap: 8px; }
 
 .action-btn {
   display: flex;
@@ -440,36 +384,14 @@ body {
   transition: background 0.15s, color 0.15s;
 }
 
-.action-btn:hover {
-  background: #2a2a2a;
-  color: #f5f4f0;
-}
+.action-btn:hover { background: #2a2a2a; color: #ffffff; }
+.action-btn.primary { background: #ffffff; color: #0a0a0a; border-color: #ffffff; }
+.action-btn.primary:hover { background: #e8e8e8; }
+.action-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-.action-btn.primary {
-  background: #ffffff;
-  color: #0a0a0a;
-  border-color: #ffffff;
-}
+table.skema-table { width: 100%; border-collapse: collapse; text-align: left; }
 
-.action-btn.primary:hover {
-  background: #e8e8e8;
-}
-
-.action-btn:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-
-table.skema-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: left;
-}
-
-.skema-table thead tr {
-  border-bottom: 1px solid #e8e8e8;
-  background: #f8f8f8;
-}
+.skema-table thead tr { border-bottom: 1px solid #e8e8e8; background: #f8f8f8; }
 
 .skema-table thead th {
   padding: 14px 20px;
@@ -481,40 +403,14 @@ table.skema-table {
   font-weight: 400;
 }
 
-.skema-table tbody tr {
-  border-bottom: 1px solid #f0f0f0;
-  transition: background 0.1s;
-}
+.skema-table tbody tr { border-bottom: 1px solid #f0f0f0; transition: background 0.1s; }
+.skema-table tbody tr:last-child { border-bottom: none; }
+.skema-table tbody tr:hover { background: #f8f8f8; }
+.skema-table tbody tr.not-found { background: #fffbfb; }
+.skema-table td { padding: 18px 20px; vertical-align: middle; }
 
-.skema-table tbody tr:last-child {
-  border-bottom: none;
-}
-
-.skema-table tbody tr:hover {
-  background: #f8f8f8;
-}
-
-.skema-table tbody tr.not-found {
-  background: #fffbfb;
-}
-
-.skema-table td {
-  padding: 18px 20px;
-  vertical-align: middle;
-}
-
-.td-matkul-name {
-  font-weight: 600;
-  font-size: 14px;
-  color: #0a0a0a;
-}
-
-.td-matkul-error {
-  font-size: 11px;
-  color: #cc4444;
-  font-family: 'DM Mono', monospace;
-  margin-top: 3px;
-}
+.td-matkul-name { font-weight: 600; font-size: 14px; color: #0a0a0a; }
+.td-matkul-error { font-size: 11px; color: #cc4444; font-family: 'DM Mono', monospace; margin-top: 3px; }
 
 .kelas-badge {
   display: inline-flex;
@@ -526,19 +422,12 @@ table.skema-table {
   font-weight: 600;
   font-size: 13px;
   background: #0a0a0a;
-  color: #f5f4f0;
+  color: #ffffff;
 }
 
-.kelas-badge.empty {
-  background: #e8e7e3;
-  color: #888;
-}
+.kelas-badge.empty { background: #e8e8e8; color: #888; }
 
-.time-date {
-  font-weight: 600;
-  font-size: 14px;
-  color: #0a0a0a;
-}
+.time-date { font-weight: 600; font-size: 14px; color: #0a0a0a; }
 
 .time-clock {
   display: inline-block;
@@ -555,7 +444,7 @@ table.skema-table {
   display: inline-block;
   padding: 6px 16px;
   background: #0a0a0a;
-  color: #f5f4f0;
+  color: #ffffff;
   font-weight: 600;
   font-size: 13px;
   font-family: 'DM Mono', monospace;
@@ -563,17 +452,8 @@ table.skema-table {
   letter-spacing: 0.04em;
 }
 
-.status-check {
-  color: #22a159;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.status-cross {
-  color: #cc4444;
-  font-size: 16px;
-  font-weight: 700;
-}
+.status-check { color: #22a159; font-size: 18px; font-weight: 700; }
+.status-cross { color: #cc4444; font-size: 16px; font-weight: 700; }
 
 .sort-note {
   font-family: 'DM Mono', monospace;
@@ -610,22 +490,15 @@ table.skema-table {
 
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.animate-in {
-  animation: fade-up 0.4s ease forwards;
-}
+.animate-in { animation: fade-up 0.4s ease forwards; }
 
 @media (max-width: 768px) {
-  .skema-hero {
-    grid-template-columns: 1fr;
-    padding: 48px 20px 40px;
-    gap: 40px;
-  }
+  .skema-hero { grid-template-columns: 1fr; padding: 48px 20px 40px; gap: 40px; }
   .upload-card { position: static; }
   .results-wrap { padding: 0 20px 60px; }
   .hero-title { font-size: 64px; }
   .skema-nav { padding: 0 20px; }
 }
-

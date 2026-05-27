@@ -37,7 +37,27 @@ export default function Home() {
   const [error, setError] = useState('');
   const [isDragging, setIsDragging] = useState(false);
   const [isSimpleView, setIsSimpleView] = useState(false);
+  const [tickerIndex, setTickerIndex] = useState(0);
+  const [tickerAnim, setTickerAnim] = useState('slide-in-up');
   const resultRef = useRef<HTMLDivElement>(null);
+
+  const tickerMessages = [
+    'SCREENSHOT-TO-EXAM MAP AUTOMATION',
+    'UPLOAD JADWAL — DAPAT HASIL',
+    'MALES BUAT SPREADSHEET?',
+    'CEK OTOMATIS DENGAN AI',
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTickerAnim('slide-out-down');
+      setTimeout(() => {
+        setTickerIndex((prev) => (prev + 1) % tickerMessages.length);
+        setTickerAnim('slide-in-up');
+      }, 400);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [tickerMessages.length]);
   const resultsWrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -139,16 +159,9 @@ export default function Home() {
       {/* Ticker */}
       <div className="skema-ticker">
         <div className="skema-ticker-inner">
-          {[...Array(2)].flatMap((_, i) => [
-            <span key={`a${i}`} className="ticker-item">SCREENSHOT-TO-EXAM MAP AUTOMATION</span>,
-            <span key={`sa${i}`} className="ticker-sep" />,
-            <span key={`b${i}`} className="ticker-item">UPLOAD JADWAL — DAPAT HASIL</span>,
-            <span key={`sb${i}`} className="ticker-sep" />,
-            <span key={`c${i}`} className="ticker-item">DARI SIAM KE MEJA UJIAN</span>,
-            <span key={`sc${i}`} className="ticker-sep" />,
-            <span key={`d${i}`} className="ticker-item">CEK OTOMATIS DENGAN AI</span>,
-            <span key={`sd${i}`} className="ticker-sep" />,
-          ])}
+          <span key={tickerIndex} className={`ticker-slide ${tickerAnim}`}>
+            {tickerMessages[tickerIndex]}
+          </span>
         </div>
       </div>
 
