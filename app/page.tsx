@@ -38,6 +38,7 @@ export default function Home() {
   const [isDragging, setIsDragging] = useState(false);
   const [isSimpleView, setIsSimpleView] = useState(false);
   const [tickerIndex, setTickerIndex] = useState(0);
+  const [showSample, setShowSample] = useState(false);
   const [tickerAnim, setTickerAnim] = useState('slide-in-up');
   const resultRef = useRef<HTMLDivElement>(null);
 
@@ -223,6 +224,13 @@ export default function Home() {
             <p>
               Pastikan upload <strong>screenshot penuh</strong> jadwal dari SIAM (termasuk header tabel) agar AI dapat membaca data dengan akurat.
             </p>
+            <button onClick={() => setShowSample(true)} className="sample-btn ignore-scan">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              LIHAT CONTOH
+            </button>
           </div>
 
           <input type="file" accept="image/*" onChange={handleFileChange} className="hidden" id="fileInput" />
@@ -451,6 +459,26 @@ export default function Home() {
           <p className="save-note">
             * TEKAN "SIMPAN PNG" DI HEADER TABEL UNTUK MENGUNDUH JADWAL
           </p>
+        </div>
+      )}
+
+      {/* Sample Screenshot Modal */}
+      {showSample && (
+        <div className="modal-overlay" onClick={() => setShowSample(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close ignore-scan" onClick={() => setShowSample(false)}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+            <div className="modal-label">CONTOH SCREENSHOT JADWAL SIAM</div>
+            <img
+              src="/sample-screenshot.png"
+              alt="Contoh screenshot jadwal SIAM"
+              className="modal-img"
+            />
+          </div>
         </div>
       )}
     </>
