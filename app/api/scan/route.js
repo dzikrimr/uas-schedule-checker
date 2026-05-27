@@ -9,13 +9,17 @@ const groq = new Groq({
 function formatData(rawItem) {
   if (!rawItem) return null;
 
-  let hari = rawItem['Hari dan Tanggal'] || '-';
+  const rawDate = rawItem['Hari dan Tanggal'] || '';
+  const d = new Date(rawDate);
+  let hari = '';
   let tanggal = '';
 
-  if (hari.includes(',')) {
-    const split = hari.split(',');
-    hari = split[0].trim();
-    tanggal = split[1]?.trim();
+  if (!isNaN(d.getTime())) {
+    hari = d.toLocaleDateString('id-ID', { weekday: 'long' });
+    tanggal = d.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+  } else {
+    hari = rawDate;
+    tanggal = rawDate;
   }
 
   let jamMulai = rawItem['Waktu'] || '-';
