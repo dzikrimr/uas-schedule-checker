@@ -131,11 +131,22 @@ export default function Home() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Gagal memproses gambar');
       if (data.result?.length > 0) {
-        const sorted = data.result.sort((a: ScanResult, b: ScanResult) => {
+        const seen = new Set();
+        const uniq = data.result.filter((item: ScanResult) => {
+          const key = `${item.input.matkul}|${item.input.kelas}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+
+        const sorted = uniq.sort((a: ScanResult, b: ScanResult) => {
           if (a.status === 'FOUND' && b.status !== 'FOUND') return -1;
           if (a.status !== 'FOUND' && b.status === 'FOUND') return 1;
           if (a.status === 'FOUND' && b.status === 'FOUND' && a.data && b.data) {
-            return new Date(a.data.jadwal.tanggal).getTime() - new Date(b.data.jadwal.tanggal).getTime();
+            const dateA = new Date(a.data.jadwal.tanggal).getTime();
+            const dateB = new Date(b.data.jadwal.tanggal).getTime();
+            if (dateA !== dateB) return dateA - dateB;
+            return a.data.jadwal.jam_mulai.localeCompare(b.data.jadwal.jam_mulai);
           }
           return 0;
         });
