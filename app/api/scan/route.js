@@ -1,10 +1,9 @@
-import { OpenAI } from "openai";
+import { Groq } from "groq-sdk";
 import { cariJadwal } from "../../utils/searchEngine";
 import { NextResponse } from "next/server";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENROUTER_API_KEY,
-  baseURL: "https://openrouter.ai/api/v1",
+const groq = new Groq({
+  apiKey: process.env.GROQ_API_KEY,
 });
 
 function formatData(rawItem) {
@@ -42,6 +41,26 @@ function formatData(rawItem) {
   };
 }
 
+function extractJSON(raw) {
+  let cleaned = raw.replace(/```json|```/gi, "").trim();
+
+  const start = cleaned.indexOf('[');
+  if (start === -1) return null;
+
+  let jsonStr = cleaned.substring(start);
+
+  let end = jsonStr.lastIndexOf(']');
+  if (end === -1) {
+    end = jsonStr.lastIndexOf('}');
+    if (end === -1) return null;
+    jsonStr = jsonStr.substring(0, end + 1) + ']';
+  } else {
+    jsonStr = jsonStr.substring(0, end + 1);
+  }
+
+  return jsonStr;
+}
+
 export async function POST(req) {
   try {
     const formData = await req.formData();
@@ -54,23 +73,10 @@ export async function POST(req) {
     const buffer = Buffer.from(await file.arrayBuffer());
     const base64Image = buffer.toString("base64");
 
-    const prompt = `
-Baca gambar jadwal kuliah ini.
+    const prompt = `Baca semua baris jadwal dari gambar. Output JSON array: [{"matkul":"...","kelas":"..."}]. Jangan skip satupun. Jangan markdown.`;
 
-Ambil hanya:
-- Mata Kuliah
-- Kelas
-
-Return JSON array murni seperti ini:
-[
-  {"matkul": "nama", "kelas": "A"}
-]
-
-Jangan pakai markdown, jangan penjelasan.
-`;
-
-    const response = await openai.chat.completions.create({
-      model: "meta-llama/llama-3.2-11b-vision-instruct",
+    const response = await groq.chat.completions.create({
+      model: "meta-llama/llama-4-scout-17b-16e-instruct",
       messages: [
         {
           role: "user",
@@ -85,18 +91,37 @@ Jangan pakai markdown, jangan penjelasan.
           ],
         },
       ],
+      temperature: 1,
+      max_tokens: 1024,
+      top_p: 1,
+      stream: false,
+      stop: null,
     });
 
-    const text = response.choices[0].message.content
-      .replace(/```json|```/g, "")
-      .trim();
+    const raw = response.choices[0].message.content;
+    const jsonStr = extractJSON(raw);
+
+    if (!jsonStr) {
+      console.error("Groq output no JSON found:", raw);
+      return NextResponse.json(
+        { error: "AI gagal membaca jadwal" },
+        { status: 500 }
+      );
+    }
 
     let ocrData = [];
-
     try {
-      ocrData = JSON.parse(text);
-    } catch (err) {
-      console.error("OpenRouter output invalid JSON:", text);
+      ocrData = JSON.parse(jsonStr);
+    } catch {
+      console.error("Groq output invalid JSON:", jsonStr);
+      return NextResponse.json(
+        { error: "AI gagal membaca jadwal" },
+        { status: 500 }
+      );
+    }
+
+    ocrData = ocrData.filter((item) => item.matkul && item.matkul.trim());
+    if (ocrData.length === 0) {
       return NextResponse.json(
         { error: "AI gagal membaca jadwal" },
         { status: 500 }
