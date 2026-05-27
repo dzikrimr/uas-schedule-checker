@@ -140,13 +140,13 @@ export default function Home() {
       <div className="skema-ticker">
         <div className="skema-ticker-inner">
           {[...Array(2)].flatMap((_, i) => [
-            <span key={`a${i}`}>SCREENSHOT-TO-EXAM MAP AUTOMATION</span>,
+            <span key={`a${i}`} className="ticker-item">SCREENSHOT-TO-EXAM MAP AUTOMATION</span>,
             <span key={`sa${i}`} className="ticker-sep" />,
-            <span key={`b${i}`}>UPLOAD JADWAL — DAPAT HASIL</span>,
+            <span key={`b${i}`} className="ticker-item">UPLOAD JADWAL — DAPAT HASIL</span>,
             <span key={`sb${i}`} className="ticker-sep" />,
-            <span key={`c${i}`}>DARI SIAM KE MEJA UJIAN</span>,
+            <span key={`c${i}`} className="ticker-item">DARI SIAM KE MEJA UJIAN</span>,
             <span key={`sc${i}`} className="ticker-sep" />,
-            <span key={`d${i}`}>CEK OTOMATIS DENGAN AI</span>,
+            <span key={`d${i}`} className="ticker-item">CEK OTOMATIS DENGAN AI</span>,
             <span key={`sd${i}`} className="ticker-sep" />,
           ])}
         </div>
