@@ -2831,6 +2831,26 @@
  },
  {
    "Hari dan Tanggal": "Jun 6, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pembelajaran Mesin",
+   "Kelas": "C",
+   "Jml Mhs": 8,
+   "Ruang": "F3.10A",
+   "Dosen": "Dr. Eng. Novanto Yudistira, S.Kom., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 6, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Analisis & Pemrosesan Data Multimodal",
+   "Kelas": "C",
+   "Jml Mhs": 6,
+   "Ruang": "F11.4",
+   "Dosen": "Barlian Henryranu Prasetio, S.T., M.T., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 6, 2026",
    "Waktu": "10:00-12:00",
    "Prodi": "S2 Sistem Informasi",
    "Mata Kuliah": "Manajemen dan Operasional Sistem Informasi",
@@ -2858,6 +2878,16 @@
    "Jml Mhs": 4,
    "Ruang": "F11.2",
    "Dosen": "Riswan Septriayadi Sianturi, S.Si.., M.Sc., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 6, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Sistem Siber-Fisik",
+   "Kelas": "C",
+   "Jml Mhs": 2,
+   "Ruang": "F11.3",
+   "Dosen": "Sabriansyah Rizqika Akbar, S.T., M.Eng., Ph.D."
  },
  {
    "Hari dan Tanggal": "Jun 6, 2026",
@@ -2918,6 +2948,16 @@
    "Jml Mhs": 34,
    "Ruang": "F3.3",
    "Dosen": "Dr. Ir. Heru Nurwarsito, M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Komputasi Saintifik Berkinerja Tinggi",
+   "Kelas": "A",
+   "Jml Mhs": 4,
+   "Ruang": "F11.1",
+   "Dosen": "Achmad Basuki, ST., MMG., Ph.D."
  },
  {
    "Hari dan Tanggal": "Jun 8, 2026",
@@ -3041,6 +3081,36 @@
  },
  {
    "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Sistem Terdistribusi",
+   "Kelas": "A",
+   "Jml Mhs": 7,
+   "Ruang": "F11.2",
+   "Dosen": "Dr. Kasyful Amron, S.T., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Sistem Terdistribusi",
+   "Kelas": "C",
+   "Jml Mhs": 5,
+   "Ruang": "F11.3",
+   "Dosen": "Sabriansyah Rizqika Akbar, S.T., M.Eng., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Etika Riset",
+   "Kelas": "A",
+   "Jml Mhs": 4,
+   "Ruang": "F11.2",
+   "Dosen": "Dr. Ir. Arief Andy Soebroto, S.T., M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
    "Waktu": "10:00-12:00",
    "Prodi": "S1 Sistem Informasi",
    "Mata Kuliah": "Keamanan Jaringan dan Siber",
@@ -3138,6 +3208,36 @@
    "Jml Mhs": 28,
    "Ruang": "F4.11",
    "Dosen": "Dr. Ir. Diva Kurnianingtyas, S.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pengembangan Sistem Pintar",
+   "Kelas": "A",
+   "Jml Mhs": 17,
+   "Ruang": "F11.4",
+   "Dosen": "Tirana Noor Fatyanosa, S.Kom., M.Kom., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pengembangan Sistem Pintar",
+   "Kelas": "B",
+   "Jml Mhs": 14,
+   "Ruang": "F3.9B",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pengembangan Sistem Pintar",
+   "Kelas": "D",
+   "Jml Mhs": 1,
+   "Ruang": "F3.10B",
+   "Dosen": "Tirana Noor Fatyanosa, S.Kom., M.Kom., Ph.D."
  },
  {
    "Hari dan Tanggal": "Jun 8, 2026",
@@ -3241,6 +3341,16 @@
  },
  {
    "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Bioinformatika/Biokomputasi",
+   "Kelas": "A",
+   "Jml Mhs": 1,
+   "Ruang": "F11.3",
+   "Dosen": "Prof. Dr. Ir. Lailil Muflikhah, S.Kom., M.Sc., IPM., ASEAN Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
    "Waktu": "13:00-15:00",
    "Prodi": "S2 Sistem Informasi",
    "Mata Kuliah": "Aplikasi Mobile Kontemporer",
@@ -3288,6 +3398,26 @@
    "Jml Mhs": 30,
    "Ruang": "G1.5",
    "Dosen": "Ir. Admaja Dwi Herlambang, S.Pd., M.Pd."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Metode Penelitian dan Penulisan Karya Ilmiah",
+   "Kelas": "A",
+   "Jml Mhs": 10,
+   "Ruang": "F11.2",
+   "Dosen": "Prof. Dr.Eng. Fitri Utaminingrum, ST., MT."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pemrosesan Bahasa Alami Tingkat Lanjut",
+   "Kelas": "A",
+   "Jml Mhs": 9,
+   "Ruang": "F3.10B",
+   "Dosen": "Barlian Henryranu Prasetio, S.T., M.T., Ph.D."
  },
  {
    "Hari dan Tanggal": "Jun 8, 2026",
@@ -3470,6 +3600,36 @@
    "Dosen": "Dr.Eng. Ir. Herman Tolle, S.T., M.T."
  },
  {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Analisis Data",
+   "Kelas": "A",
+   "Jml Mhs": 4,
+   "Ruang": "F11.3",
+   "Dosen": "Prof. Dr. Ir. Lailil Muflikhah, S.Kom., M.Sc., IPM., ASEAN Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Visi Komputer Tingkat Lanjut",
+   "Kelas": "A",
+   "Jml Mhs": 12,
+   "Ruang": "F11.4",
+   "Dosen": "Prof. Dr.Eng. Fitri Utaminingrum, ST., MT."
+ },
+ {
+   "Hari dan Tanggal": "Jun 8, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Visi Komputer Tingkat Lanjut",
+   "Kelas": "D",
+   "Jml Mhs": 1,
+   "Ruang": "F3.10A",
+   "Dosen": "Dr. Eng. Novanto Yudistira, S.Kom., M.Sc."
+ },
+ {
    "Hari dan Tanggal": "Jun 9, 2026",
    "Waktu": "07:30-09:30",
    "Prodi": "S1 Teknik Informatika",
@@ -3632,6 +3792,16 @@
  {
    "Hari dan Tanggal": "Jun 9, 2026",
    "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Sistem Siber-Fisik",
+   "Kelas": "A",
+   "Jml Mhs": 13,
+   "Ruang": "F11.1",
+   "Dosen": "Agung Setia Budi, S.T., M.Eng., M.T., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "07:30-09:30",
    "Prodi": "S1 Sistem Informasi",
    "Mata Kuliah": "Teknologi Blockchain dan Platform Keuangan Dijital",
    "Kelas": "A",
@@ -3668,6 +3838,16 @@
    "Jml Mhs": 35,
    "Ruang": "RV 1.3",
    "Dosen": "Ir. Ari Kusyanti, S.T., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Analisis & Pemrosesan Data Multimodal",
+   "Kelas": "D",
+   "Jml Mhs": 1,
+   "Ruang": "F3.9B",
+   "Dosen": "Prof. Dr.Eng. Fitri Utaminingrum, ST., MT."
  },
  {
    "Hari dan Tanggal": "Jun 9, 2026",
@@ -3902,6 +4082,36 @@
  {
    "Hari dan Tanggal": "Jun 9, 2026",
    "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pembelajaran Mesin",
+   "Kelas": "A",
+   "Jml Mhs": 17,
+   "Ruang": "F11.3",
+   "Dosen": "Dr. Eng. Fitra Abdurrachman Bachtiar, S.T., M.Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pembelajaran Mesin",
+   "Kelas": "B",
+   "Jml Mhs": 13,
+   "Ruang": "F11.4",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pembelajaran Mesin",
+   "Kelas": "D",
+   "Jml Mhs": 2,
+   "Ruang": "F3.10B",
+   "Dosen": "Prof. Dr. Ir. Lailil Muflikhah, S.Kom., M.Sc., IPM., ASEAN Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "10:00-12:00",
    "Prodi": "S1 Teknologi Informasi",
    "Mata Kuliah": "Teknologi Smart City",
    "Kelas": "A",
@@ -3918,6 +4128,16 @@
    "Jml Mhs": 29,
    "Ruang": "RV 1.5",
    "Dosen": "Dr. Kasyful Amron, S.T., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Citra Digital dan Visi Komputer",
+   "Kelas": "A",
+   "Jml Mhs": 3,
+   "Ruang": "F11.2",
+   "Dosen": "Prof. Dr.Eng. Fitri Utaminingrum, ST., MT."
  },
  {
    "Hari dan Tanggal": "Jun 9, 2026",
@@ -4018,6 +4238,16 @@
    "Jml Mhs": 37,
    "Ruang": "F4.2",
    "Dosen": "Dany Primanita Kartikasari, S.T., M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Filsafat Ilmu",
+   "Kelas": "A",
+   "Jml Mhs": 4,
+   "Ruang": "F11.3",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
  },
  {
    "Hari dan Tanggal": "Jun 9, 2026",
@@ -4158,6 +4388,66 @@
    "Jml Mhs": 38,
    "Ruang": "F4.1",
    "Dosen": "Ir. Tri Afirianto, S.T., M.T."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Rekayasa Perangkat Lunak",
+   "Kelas": "A",
+   "Jml Mhs": 7,
+   "Ruang": "F3.9A",
+   "Dosen": "Bayu Priyambadha, S.Kom., M.Kom., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Rekayasa Perangkat Lunak",
+   "Kelas": "C",
+   "Jml Mhs": 9,
+   "Ruang": "F3.9B",
+   "Dosen": "Ir. Tri Astoto Kurniawan, S.T., M.T., Ph.D., IPM."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Teknik dan Algoritma Optimasi",
+   "Kelas": "A",
+   "Jml Mhs": 16,
+   "Ruang": "F11.4",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Teknik dan Algoritma Optimasi",
+   "Kelas": "B",
+   "Jml Mhs": 13,
+   "Ruang": "F3.10A",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Teknik dan Algoritma Optimasi",
+   "Kelas": "D",
+   "Jml Mhs": 1,
+   "Ruang": "F3.10B",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 9, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Rekayasa Perangkat Lunak",
+   "Kelas": "A",
+   "Jml Mhs": 2,
+   "Ruang": "F11.2",
+   "Dosen": "Ir. Tri Astoto Kurniawan, S.T., M.T., Ph.D., IPM."
  },
  {
    "Hari dan Tanggal": "Jun 10, 2026",
@@ -4351,6 +4641,36 @@
  },
  {
    "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Manajemen Teknologi",
+   "Kelas": "A",
+   "Jml Mhs": 15,
+   "Ruang": "F11.1",
+   "Dosen": "Dr.Eng. Ir. Herman Tolle, S.T., M.T."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Manajemen Teknologi",
+   "Kelas": "B",
+   "Jml Mhs": 16,
+   "Ruang": "F11.2",
+   "Dosen": "Dr. Ir. Heru Nurwarsito, M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Manajemen Teknologi",
+   "Kelas": "D",
+   "Jml Mhs": 1,
+   "Ruang": "F11.3",
+   "Dosen": "Dr.Eng. Ir. Herman Tolle, S.T., M.T."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
    "Waktu": "10:00-12:00",
    "Prodi": "S1 Teknologi Informasi",
    "Mata Kuliah": "Administrasi Sistem",
@@ -4408,6 +4728,26 @@
    "Jml Mhs": 17,
    "Ruang": "F4.11",
    "Dosen": "Mahendra Data, S.Kom., M.Kom., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Analisis & Pemrosesan Data Multimodal",
+   "Kelas": "A",
+   "Jml Mhs": 10,
+   "Ruang": "F11.4",
+   "Dosen": "Dr. Eng. Fitra Abdurrachman Bachtiar, S.T., M.Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Analisis & Pemrosesan Data Multimodal",
+   "Kelas": "B",
+   "Jml Mhs": 11,
+   "Ruang": "F3.10A",
+   "Dosen": "Dr. Eng. Fitra Abdurrachman Bachtiar, S.T., M.Eng."
  },
  {
    "Hari dan Tanggal": "Jun 10, 2026",
@@ -4592,12 +4932,52 @@
  {
    "Hari dan Tanggal": "Jun 10, 2026",
    "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Kecerdasan Artifisial",
+   "Kelas": "A",
+   "Jml Mhs": 8,
+   "Ruang": "F3.9B",
+   "Dosen": "Prof. Dr. Ir. Lailil Muflikhah, S.Kom., M.Sc., IPM., ASEAN Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Kecerdasan Artifisial",
+   "Kelas": "C",
+   "Jml Mhs": 5,
+   "Ruang": "F3.10B",
+   "Dosen": "Dr. Eng. Fitra Abdurrachman Bachtiar, S.T., M.Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "10:00-12:00",
    "Prodi": "S1 Teknik Informatika",
    "Mata Kuliah": "Sistem Berbasis Pengetahuan",
    "Kelas": "A",
    "Jml Mhs": 21,
    "Ruang": "F4.10",
    "Dosen": "Dr. Ir. Arief Andy Soebroto, S.T., M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Metode Formal",
+   "Kelas": "A",
+   "Jml Mhs": 10,
+   "Ruang": "F11.3",
+   "Dosen": "Dr. Eng. Novanto Yudistira, S.Kom., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Pembelajaran Mesin",
+   "Kelas": "A",
+   "Jml Mhs": 4,
+   "Ruang": "F11.2",
+   "Dosen": "Dr. Candra Dewi, S.Kom., M.Sc."
  },
  {
    "Hari dan Tanggal": "Jun 10, 2026",
@@ -4748,6 +5128,26 @@
    "Jml Mhs": 24,
    "Ruang": "F3.2",
    "Dosen": "Drs. Muh. Arif Rahman, M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Metode Optimasi",
+   "Kelas": "A",
+   "Jml Mhs": 6,
+   "Ruang": "F11.3",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 10, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Pemodelan dan Simulasi",
+   "Kelas": "A",
+   "Jml Mhs": 4,
+   "Ruang": "F11.2",
+   "Dosen": "Dr. Eng. Novanto Yudistira, S.Kom., M.Sc."
  },
  {
    "Hari dan Tanggal": "Jun 11, 2026",
@@ -4908,6 +5308,16 @@
    "Jml Mhs": 33,
    "Ruang": "RV 1.5",
    "Dosen": "Buce Trias Hanggara, S.Kom., M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 11, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Metode Penelitian dan Penulisan Karya Tulis",
+   "Kelas": "A",
+   "Jml Mhs": 8,
+   "Ruang": "F11.1",
+   "Dosen": "Dr. Candra Dewi, S.Kom., M.Sc."
  },
  {
    "Hari dan Tanggal": "Jun 11, 2026",
@@ -5198,6 +5608,26 @@
    "Jml Mhs": 6,
    "Ruang": "F2.4",
    "Dosen": "Ir. Aryo Pinandito, ST., M.MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 11, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pengantar Sistem Pintar",
+   "Kelas": "A",
+   "Jml Mhs": 7,
+   "Ruang": "F11.2",
+   "Dosen": "Dr. Eng. Fitra Abdurrachman Bachtiar, S.T., M.Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 11, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pengantar Sistem Pintar",
+   "Kelas": "C",
+   "Jml Mhs": 6,
+   "Ruang": "F11.3",
+   "Dosen": "Dr. Ir. Heru Nurwarsito, M.Kom."
  },
  {
    "Hari dan Tanggal": "Jun 11, 2026",
@@ -6062,12 +6492,52 @@
  {
    "Hari dan Tanggal": "Jun 13, 2026",
    "Waktu": "07:30-09:30",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Manajemen Teknologi",
+   "Kelas": "C",
+   "Jml Mhs": 8,
+   "Ruang": "F11.3",
+   "Dosen": "Dr. Ir. Arief Andy Soebroto, S.T., M.Kom."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Metode Penelitian dan Penulisan Karya Ilmiah",
+   "Kelas": "B",
+   "Jml Mhs": 9,
+   "Ruang": "Daring",
+   "Dosen": "Dr. Candra Dewi, S.Kom., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "07:30-09:30",
    "Prodi": "S2 Sistem Informasi",
    "Mata Kuliah": "Metodologi Penelitian dan Penulisan Karya Ilmiah",
    "Kelas": "B",
    "Jml Mhs": 4,
    "Ruang": "F11.2",
    "Dosen": "Ir. Aryo Pinandito, ST., M.MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Analisis Data",
+   "Kelas": "B",
+   "Jml Mhs": 12,
+   "Ruang": "Daring",
+   "Dosen": "Dr. Candra Dewi, S.Kom., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Filsafat Ilmu",
+   "Kelas": "B",
+   "Jml Mhs": 12,
+   "Ruang": "Daring",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
  },
  {
    "Hari dan Tanggal": "Jun 13, 2026",
@@ -6078,6 +6548,36 @@
    "Jml Mhs": 7,
    "Ruang": "F11.1",
    "Dosen": "Dr. Himawat Aryadita, S.T., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Pengembangan Sistem Pintar",
+   "Kelas": "C",
+   "Jml Mhs": 9,
+   "Ruang": "F11.3",
+   "Dosen": "Sabriansyah Rizqika Akbar, S.T., M.Eng., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Citra Digital dan Visi Komputer",
+   "Kelas": "B",
+   "Jml Mhs": 5,
+   "Ruang": "Daring",
+   "Dosen": "Dr. Candra Dewi, S.Kom., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Etika Riset",
+   "Kelas": "B",
+   "Jml Mhs": 12,
+   "Ruang": "Daring",
+   "Dosen": "Dr. Ir. Arief Andy Soebroto, S.T., M.Kom."
  },
  {
    "Hari dan Tanggal": "Jun 13, 2026",
@@ -6098,5 +6598,75 @@
    "Jml Mhs": 4,
    "Ruang": "F11.2",
    "Dosen": "Ismiarta Aknuranda, S.T., M.Sc., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S2 Ilmu Komputer",
+   "Mata Kuliah": "Metode Penelitian dan Penulisan Karya Tulis",
+   "Kelas": "C",
+   "Jml Mhs": 5,
+   "Ruang": "F11.3",
+   "Dosen": "Achmad Basuki, ST., MMG., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 13, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Metode Optimasi",
+   "Kelas": "B",
+   "Jml Mhs": 4,
+   "Ruang": "Daring",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 20, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Pemrosesan Bahasa Alami",
+   "Kelas": "B",
+   "Jml Mhs": 9,
+   "Ruang": "Daring",
+   "Dosen": "Dr. Eng. Fitra Abdurrachman Bachtiar, S.T., M.Eng."
+ },
+ {
+   "Hari dan Tanggal": "Jun 20, 2026",
+   "Waktu": "07:30-09:30",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Pembelajaran Mesin",
+   "Kelas": "B",
+   "Jml Mhs": 12,
+   "Ruang": "Daring",
+   "Dosen": "Dr. Candra Dewi, S.Kom., M.Sc."
+ },
+ {
+   "Hari dan Tanggal": "Jun 20, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Khusus Bidang Sistem Tertanam Cerdas",
+   "Kelas": "B",
+   "Jml Mhs": 3,
+   "Ruang": "Daring",
+   "Dosen": "Sabriansyah Rizqika Akbar, S.T., M.Eng., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 20, 2026",
+   "Waktu": "10:00-12:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Pemodelan dan Simulasi",
+   "Kelas": "B",
+   "Jml Mhs": 12,
+   "Ruang": "Daring",
+   "Dosen": "Prof. Ir. Wayan Firdaus Mahmudy, S.Si., MT., Ph.D."
+ },
+ {
+   "Hari dan Tanggal": "Jun 20, 2026",
+   "Waktu": "13:00-15:00",
+   "Prodi": "S3 Ilmu Komputer",
+   "Mata Kuliah": "Topik Metode Formal",
+   "Kelas": "B",
+   "Jml Mhs": 9,
+   "Ruang": "Daring",
+   "Dosen": "Ir. Tri Astoto Kurniawan, S.T., M.T., Ph.D., IPM."
  }
 ]
